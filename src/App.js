@@ -45,7 +45,7 @@ export const App = () => {
     });
     useEffect(()=>{
       makeHttpRequest(page);
-    }, []);
+    }, [page]);
  
     return (
       <>
